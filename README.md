@@ -11,3 +11,6 @@ feature2 - commit2
 <br><br>
 feature3 - commit1
 feature3 - commit2
+
+<br><br>
+feature-mergepull - commit1
