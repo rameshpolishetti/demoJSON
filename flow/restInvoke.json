@@ -98,8 +98,8 @@
                   },
                   {
                     "type": 1,
-                    "value": "${petId}",
-                    "mapTo": "pathParams.petId"
+                    "value": "${id}",
+                    "mapTo": "pathParams.id"
                   }
                 ]
               },
@@ -191,7 +191,7 @@
       "metadata": {
         "input": [
           {
-            "name": "petId",
+            "name": "id",
             "type": "string"
           },
           {
