@@ -3,43 +3,7 @@
   "type": "flogo:app",
   "version": "0.0.1",
   "description": "",
-  "triggers": [
-    {
-      "name": "Receive HTTP Message",
-      "ref": "github.com/TIBCOSoftware/flogo-contrib/trigger/rest",
-      "description": "Simple REST Trigger",
-      "settings": {
-        "port": "9096"
-      },
-      "id": "receive_http_message",
-      "handlers": [
-        {
-          "settings": {
-            "method": "GET",
-            "path": "/pets/:petId",
-            "autoIdReply": null,
-            "useReplyHandler": null
-          },
-          "actionId": "flow",
-          "actionMappings": {
-            "input": [
-              {
-                "type": 1,
-                "mapTo": "petId",
-                "value": "pathParams.petId"
-              },
-              {
-                "type": 2,
-                "mapTo": "endPoint",
-                "value": "http://petstore.swagger.io/v2/pet/:petId"
-              }
-            ],
-            "output": []
-          }
-        }
-      ]
-    }
-  ],
+  "triggers": [],
   "actions": [
     {
       "data": {
