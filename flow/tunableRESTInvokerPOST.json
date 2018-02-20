@@ -59,6 +59,11 @@
                       "type": 1,
                       "value": "$flow.endPoint",
                       "mapTo": "uri"
+                    },
+                    {
+                      "type": 1,
+                      "value": "$flow.content",
+                      "mapTo": "content"
                     }
                   ]
                 },
@@ -149,6 +154,10 @@
         "id": "flow",
         "metadata": {
           "input": [
+            {
+              "name": "content",
+              "type": "string"
+            },
             {
               "name": "endPoint",
               "type": "string"
